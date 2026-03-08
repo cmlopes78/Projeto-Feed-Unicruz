@@ -1,0 +1,3 @@
+# programação imperativa: digo pra ela o que ela deve fazer
+
+# programação declarativa: digo pra ela COMO deve fazer
