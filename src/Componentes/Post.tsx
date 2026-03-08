@@ -4,6 +4,7 @@ import { Comment } from "./Comment"
 import { format } from "date-fns"
 import { formatDistanceToNow } from "date-fns"
 import { ptBR } from "date-fns/locale"
+import { Avatar } from './Avatar'
 
 export function Post(){
 
@@ -21,11 +22,8 @@ export function Post(){
         <article className={styles.post}>
             <header>
                 <div className={styles.autor}>
-                    <img 
-                    className={styles.avatar}
-                    src="https://github.com/cmlopes78.png" 
-                    alt="Foto de perfil"
-                    />
+                    <Avatar src="https://github.com/cmlopes78.png"
+                    hasBorder/>
                     <div className={styles.authorInfo}>
                         <strong>Caua </strong>
                         <span>Web Developer</span>
