@@ -80,3 +80,46 @@
     line-height: 1.6;
     color: var(--gray-100);
 }
+
+.commentForm textarea{
+    width: 100%;
+    background-color: var(--gray-800);
+    border: 0;
+    resize: none;
+    min-height: 6rem;
+    padding: 1rem;
+    border-radius:8px;
+    color: var(--gray-100);
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+
+.commentForm button {
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    background: var(--green-500);
+    border: 0;
+    border-radius: 8px;
+    color: var(--white);
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.commentForm button:hover{
+    background-color: var(--green-300);
+}
+
+.commentForm footer{
+    visibility: hidden;
+    max-height: 0;
+}
+
+.commentForm:focus-within footer{
+    visibility: visible;
+    max-height: none;
+}
+
+.commentList{
+    margin-top: 2rem;
+}
